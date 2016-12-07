@@ -11,6 +11,18 @@ Summary: Dependency Graphing for Python
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/snakefood-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/snakefood-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/snakefood-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/snakefood-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/snakefood-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/snakefood-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/snakefood/badges/version.svg)](https://anaconda.org/conda-forge/snakefood)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/snakefood/badges/downloads.svg)](https://anaconda.org/conda-forge/snakefood)
+
 Installing snakefood
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `snakefood` available on your plat
 ```
 conda search snakefood --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/snakefood-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/snakefood-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/snakefood-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/snakefood-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/snakefood-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/snakefood-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/snakefood/badges/version.svg)](https://anaconda.org/conda-forge/snakefood)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/snakefood/badges/downloads.svg)](https://anaconda.org/conda-forge/snakefood)
 
 
 Updating snakefood-feedstock
