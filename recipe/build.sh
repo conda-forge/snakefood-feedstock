@@ -5,4 +5,4 @@ then
     2to3 -w -n setup.py
     2to3 -w -n lib/*
 fi
-$PYTHON setup.py install --single-version-externally-managed --record=record.txt
+$PYTHON setup.py install --record=record.txt
