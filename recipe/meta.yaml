@@ -27,7 +27,6 @@ requirements:
 test:
   imports:
     - snakefood
-    - snakefood.fallback
   requires:
     - nose
   commands:
