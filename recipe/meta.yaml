@@ -1,15 +1,17 @@
 {%set name = "snakefood" %}
 {%set version = "1.4" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "295784668032254e7391ca99ba7060edd3ae4eca1a330ac11627b18ab5923b77" %}
+{%set hash_val = "940104750cf194b724ebe9c83848005312bbf13f2d08d5bb50caa32ad0acf2d2" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  #fn: {{ name }}-{{ version }}.tar.gz
+  #url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  fn: python3-via-six.zip
+  url: https://bitbucket.org/letmaik/snakefood/get/python3-via-six.zip
   {{ hash_type }}: {{ hash_val }}
 
 build:
