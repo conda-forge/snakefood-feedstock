@@ -15,7 +15,7 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  skip: True # [py27]
+  skip: True  # [py27]
   number: 1
 
 requirements:
