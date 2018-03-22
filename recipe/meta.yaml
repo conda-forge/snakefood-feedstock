@@ -20,9 +20,11 @@ build:
 requirements:
   build:
     - python
+    - six
 
   run:
     - python
+    - six
 
 test:
   imports:
