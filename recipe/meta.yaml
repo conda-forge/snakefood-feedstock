@@ -35,7 +35,7 @@ test:
     - nose
   commands:
     - sfood -h
-    - sfood-graph -h
+    #- sfood-graph -h
     #- sfood-cluster -h
     - sfood-checker -h
     - sfood-imports -h
