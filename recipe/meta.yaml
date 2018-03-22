@@ -26,6 +26,15 @@ test:
   imports:
     - snakefood
     - snakefood.fallback
+  requires:
+    - nose
+  commands:
+    - sfood -h
+    - sfood-graph -h
+    - sfood-cluster -h
+    - sfood-checker -h
+    - sfood-imports -h
+    - nosetests
 
 about:
   home: http://furius.ca/snakefood
