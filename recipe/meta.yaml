@@ -1,6 +1,5 @@
 {% set name = "snakefood" %}
 {% set version = "1.4" %}
-{% set hash_type = "sha256" %}
 {% set hash_val = "295784668032254e7391ca99ba7060edd3ae4eca1a330ac11627b18ab5923b77" %}
 
 package:
@@ -10,11 +9,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  {{ hash_type }}: {{ hash_val }}
+  sha256: {{ hash_val }}
 
 build:
   skip: True  # [py3k]
-  number: 1001
+  number: 1002
   script: python setup.py install --record=record.txt
 
 requirements:
