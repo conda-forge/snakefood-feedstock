@@ -5,11 +5,9 @@ Home: http://furius.ca/snakefood
 
 Package license: GPL-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/snakefood-feedstock/blob/master/LICENSE.txt)
 
 Summary: Dependency Graphing for Python
-
-
 
 Current build status
 ====================
