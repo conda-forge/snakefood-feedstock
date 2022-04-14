@@ -13,11 +13,11 @@ source:
 
 build:
   skip: True  # [py3k]
-  number: 1002
+  number: 1003
   script: python setup.py install --record=record.txt
 
 requirements:
-  build:
+  host:
     - python
 
   run:
